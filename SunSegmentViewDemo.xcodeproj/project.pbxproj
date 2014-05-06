@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC90C863190A700100A31179 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC90C862190A700100A31179 /* Foundation.framework */; };
+		AC90C865190A700100A31179 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC90C864190A700100A31179 /* CoreGraphics.framework */; };
+		AC90C867190A700100A31179 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC90C866190A700100A31179 /* UIKit.framework */; };
+		AC90C86D190A700100A31179 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC90C86B190A700100A31179 /* InfoPlist.strings */; };
+		AC90C86F190A700100A31179 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC90C86E190A700100A31179 /* main.m */; };
+		AC90C873190A700100A31179 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC90C872190A700100A31179 /* AppDelegate.m */; };
+		AC90C875190A700100A31179 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC90C874190A700100A31179 /* Images.xcassets */; };
+		AC90C87C190A700100A31179 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC90C87B190A700100A31179 /* XCTest.framework */; };
+		AC90C87D190A700100A31179 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC90C862190A700100A31179 /* Foundation.framework */; };
+		AC90C87E190A700100A31179 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC90C866190A700100A31179 /* UIKit.framework */; };
+		AC90C886190A700100A31179 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC90C884190A700100A31179 /* InfoPlist.strings */; };
+		AC90C888190A700100A31179 /* SunSegmentViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC90C887190A700100A31179 /* SunSegmentViewDemoTests.m */; };
+		AC90C893190A700D00A31179 /* SunSegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = AC90C892190A700D00A31179 /* SunSegmentView.m */; };
+		AC90C897190A704700A31179 /* mainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC90C895190A704700A31179 /* mainViewController.m */; };
+		AC90C898190A704700A31179 /* mainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC90C896190A704700A31179 /* mainViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC90C87F190A700100A31179 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC90C857190A700100A31179 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC90C85E190A700100A31179;
+			remoteInfo = SunSegmentViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC90C85F190A700100A31179 /* SunSegmentViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SunSegmentViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC90C862190A700100A31179 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AC90C864190A700100A31179 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AC90C866190A700100A31179 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AC90C86A190A700100A31179 /* SunSegmentViewDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SunSegmentViewDemo-Info.plist"; sourceTree = "<group>"; };
+		AC90C86C190A700100A31179 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AC90C86E190A700100A31179 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AC90C870190A700100A31179 /* SunSegmentViewDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SunSegmentViewDemo-Prefix.pch"; sourceTree = "<group>"; };
+		AC90C871190A700100A31179 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AC90C872190A700100A31179 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AC90C874190A700100A31179 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AC90C87A190A700100A31179 /* SunSegmentViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SunSegmentViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC90C87B190A700100A31179 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		AC90C883190A700100A31179 /* SunSegmentViewDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SunSegmentViewDemoTests-Info.plist"; sourceTree = "<group>"; };
+		AC90C885190A700100A31179 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AC90C887190A700100A31179 /* SunSegmentViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SunSegmentViewDemoTests.m; sourceTree = "<group>"; };
+		AC90C891190A700D00A31179 /* SunSegmentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SunSegmentView.h; sourceTree = "<group>"; };
+		AC90C892190A700D00A31179 /* SunSegmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SunSegmentView.m; sourceTree = "<group>"; };
+		AC90C894190A704700A31179 /* mainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mainViewController.h; sourceTree = "<group>"; };
+		AC90C895190A704700A31179 /* mainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mainViewController.m; sourceTree = "<group>"; };
+		AC90C896190A704700A31179 /* mainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = mainViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC90C85C190A700100A31179 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC90C865190A700100A31179 /* CoreGraphics.framework in Frameworks */,
+				AC90C867190A700100A31179 /* UIKit.framework in Frameworks */,
+				AC90C863190A700100A31179 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC90C877190A700100A31179 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC90C87C190A700100A31179 /* XCTest.framework in Frameworks */,
+				AC90C87E190A700100A31179 /* UIKit.framework in Frameworks */,
+				AC90C87D190A700100A31179 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC90C856190A700100A31179 = {
+			isa = PBXGroup;
+			children = (
+				AC90C868190A700100A31179 /* SunSegmentViewDemo */,
+				AC90C881190A700100A31179 /* SunSegmentViewDemoTests */,
+				AC90C861190A700100A31179 /* Frameworks */,
+				AC90C860190A700100A31179 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC90C860190A700100A31179 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC90C85F190A700100A31179 /* SunSegmentViewDemo.app */,
+				AC90C87A190A700100A31179 /* SunSegmentViewDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC90C861190A700100A31179 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC90C862190A700100A31179 /* Foundation.framework */,
+				AC90C864190A700100A31179 /* CoreGraphics.framework */,
+				AC90C866190A700100A31179 /* UIKit.framework */,
+				AC90C87B190A700100A31179 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC90C868190A700100A31179 /* SunSegmentViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				AC90C871190A700100A31179 /* AppDelegate.h */,
+				AC90C872190A700100A31179 /* AppDelegate.m */,
+				AC90C894190A704700A31179 /* mainViewController.h */,
+				AC90C895190A704700A31179 /* mainViewController.m */,
+				AC90C896190A704700A31179 /* mainViewController.xib */,
+				AC90C891190A700D00A31179 /* SunSegmentView.h */,
+				AC90C892190A700D00A31179 /* SunSegmentView.m */,
+				AC90C874190A700100A31179 /* Images.xcassets */,
+				AC90C869190A700100A31179 /* Supporting Files */,
+			);
+			path = SunSegmentViewDemo;
+			sourceTree = "<group>";
+		};
+		AC90C869190A700100A31179 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC90C86A190A700100A31179 /* SunSegmentViewDemo-Info.plist */,
+				AC90C86B190A700100A31179 /* InfoPlist.strings */,
+				AC90C86E190A700100A31179 /* main.m */,
+				AC90C870190A700100A31179 /* SunSegmentViewDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AC90C881190A700100A31179 /* SunSegmentViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC90C887190A700100A31179 /* SunSegmentViewDemoTests.m */,
+				AC90C882190A700100A31179 /* Supporting Files */,
+			);
+			path = SunSegmentViewDemoTests;
+			sourceTree = "<group>";
+		};
+		AC90C882190A700100A31179 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC90C883190A700100A31179 /* SunSegmentViewDemoTests-Info.plist */,
+				AC90C884190A700100A31179 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC90C85E190A700100A31179 /* SunSegmentViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC90C88B190A700100A31179 /* Build configuration list for PBXNativeTarget "SunSegmentViewDemo" */;
+			buildPhases = (
+				AC90C85B190A700100A31179 /* Sources */,
+				AC90C85C190A700100A31179 /* Frameworks */,
+				AC90C85D190A700100A31179 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SunSegmentViewDemo;
+			productName = SunSegmentViewDemo;
+			productReference = AC90C85F190A700100A31179 /* SunSegmentViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC90C879190A700100A31179 /* SunSegmentViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC90C88E190A700100A31179 /* Build configuration list for PBXNativeTarget "SunSegmentViewDemoTests" */;
+			buildPhases = (
+				AC90C876190A700100A31179 /* Sources */,
+				AC90C877190A700100A31179 /* Frameworks */,
+				AC90C878190A700100A31179 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC90C880190A700100A31179 /* PBXTargetDependency */,
+			);
+			name = SunSegmentViewDemoTests;
+			productName = SunSegmentViewDemoTests;
+			productReference = AC90C87A190A700100A31179 /* SunSegmentViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC90C857190A700100A31179 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = yusen;
+				TargetAttributes = {
+					AC90C879190A700100A31179 = {
+						TestTargetID = AC90C85E190A700100A31179;
+					};
+				};
+			};
+			buildConfigurationList = AC90C85A190A700100A31179 /* Build configuration list for PBXProject "SunSegmentViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AC90C856190A700100A31179;
+			productRefGroup = AC90C860190A700100A31179 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC90C85E190A700100A31179 /* SunSegmentViewDemo */,
+				AC90C879190A700100A31179 /* SunSegmentViewDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC90C85D190A700100A31179 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC90C86D190A700100A31179 /* InfoPlist.strings in Resources */,
+				AC90C875190A700100A31179 /* Images.xcassets in Resources */,
+				AC90C898190A704700A31179 /* mainViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC90C878190A700100A31179 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC90C886190A700100A31179 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC90C85B190A700100A31179 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC90C893190A700D00A31179 /* SunSegmentView.m in Sources */,
+				AC90C873190A700100A31179 /* AppDelegate.m in Sources */,
+				AC90C86F190A700100A31179 /* main.m in Sources */,
+				AC90C897190A704700A31179 /* mainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC90C876190A700100A31179 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC90C888190A700100A31179 /* SunSegmentViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC90C880190A700100A31179 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC90C85E190A700100A31179 /* SunSegmentViewDemo */;
+			targetProxy = AC90C87F190A700100A31179 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC90C86B190A700100A31179 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC90C86C190A700100A31179 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AC90C884190A700100A31179 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC90C885190A700100A31179 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC90C889190A700100A31179 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC90C88A190A700100A31179 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC90C88C190A700100A31179 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SunSegmentViewDemo/SunSegmentViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "SunSegmentViewDemo/SunSegmentViewDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AC90C88D190A700100A31179 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SunSegmentViewDemo/SunSegmentViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "SunSegmentViewDemo/SunSegmentViewDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		AC90C88F190A700100A31179 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SunSegmentViewDemo.app/SunSegmentViewDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SunSegmentViewDemo/SunSegmentViewDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SunSegmentViewDemoTests/SunSegmentViewDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		AC90C890190A700100A31179 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SunSegmentViewDemo.app/SunSegmentViewDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SunSegmentViewDemo/SunSegmentViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "SunSegmentViewDemoTests/SunSegmentViewDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC90C85A190A700100A31179 /* Build configuration list for PBXProject "SunSegmentViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC90C889190A700100A31179 /* Debug */,
+				AC90C88A190A700100A31179 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC90C88B190A700100A31179 /* Build configuration list for PBXNativeTarget "SunSegmentViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC90C88C190A700100A31179 /* Debug */,
+				AC90C88D190A700100A31179 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AC90C88E190A700100A31179 /* Build configuration list for PBXNativeTarget "SunSegmentViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC90C88F190A700100A31179 /* Debug */,
+				AC90C890190A700100A31179 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC90C857190A700100A31179 /* Project object */;
+}
